@@ -1,0 +1,20 @@
+/* CSS placed here will affect users of the mobile site */
+.mobile-float-reset { float: none !important; width: 100% !important; }
+
+/* Floating table headers for Wikimedia_Hackathon_2018/Program */
+@supports (position:sticky) or (position:-webkit-sticky) {
+	/*.wikitable.sticky {*/
+	/*	max-height: 90vh;*/
+	/*	overflow: auto; !important;*/
+	/*}*/
+	/*.wikitable.sticky > * > tr.sticky > th {*/
+	/*    position: -webkit-sticky;*/
+	/*    position: sticky;*/
+	/*    top: 0;*/
+	/*}*/
+	/*.wikitable.sticky > * > tr:not(.sticky) > th:first-child {
+	    position: -webkit-sticky;
+	    position: sticky;
+	    left: 0;
+	}*/
+}
